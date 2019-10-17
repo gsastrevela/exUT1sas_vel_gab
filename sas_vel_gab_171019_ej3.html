@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+    <style>
+        .fondoazul{
+            background-color: darkcyan;
+        }
+        .fondogris{
+            background-color:darkgrey;
+        }
+        .fondoverde{
+            background-color: green;
+        }
+        .fondoamarillo{
+            background-color: yellow;
+        }
+        .fondoazul1{
+            background-color: blue;
+        }
+        .fondonegro{
+            background-color: black;
+            color:blanchedalmond;
+        }
+        div.circle-avatar{
+/* make it responsive */
+max-width: 100%;
+width:100%;
+height:auto;
+display:block;
+/* div height to be the same as width*/
+padding-top:100%;
+
+/* make it a circle */
+border-radius:50%;
+
+/* Centering on image`s center*/
+background-position-y: center;
+background-position-x: center;
+background-repeat: no-repeat;
+
+/* it makes the clue thing, takes smaller dimension to fill div */
+background-size: cover;
+
+/* it is optional, for making this div centered in parent*/
+margin: 0 auto;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+    </style>
+</head>
+<body>
+        <div class="row">
+                <div class="col-sm 4 fondoazul">me llamo gabriel.estilo de fondo</div>
+                <div class="col-sm 4 fondogris">gonzalez sanchez.estilo de fondo:</div>
+            </div>
+        <div class="row">
+                <div class="col-sm 4 fondoamarillo">estoy / estilo de fondo</div>
+                <div class="col-sm 4 fondoverde">realizando / estilo de fondo</div>
+                <div class="col-sm 4 fondoamarillo">mi ejercicio / estilo de fondo</div>
+                <div class="col-sm 4 fondoverde">de examen / estilo de fondo</div>
+        </div>
+        <div class="row">
+                <div class="col-sm 4 fondoazul1">iniciales 1: sas</div>
+                <div class="col-sm 4 fondonegro">iniciales 2: vel</div>
+                <div class="col-sm 4 fondoazul">ejercicio 3</div>
+                <div class="col-sm 4 fondonegro">bootstrap4</div>
+                <div class="col-sm 4 fondonegro">17/10/19-sasvelgab</div>
+                <div class="col-sm 4 fondonegro"></div>
+        </div>
+
+        <div class="container" style="text-align: center;">
+              
+                <img class="img-responsive img-circle" alt="fc" width="300" height="168" src="imgvideo/FC.jpg" />
+                </div>
+                
+</body>
+</html>
