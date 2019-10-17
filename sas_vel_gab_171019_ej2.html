@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comparativa-sasvelgab</title>
+    <style>
+        td,th{
+            border: 1px solid black; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">sasvelgab-Comparativa de coches</h1>
+    <br>
+    <p style="text-align: center;">SASVELGAB-Vamos a comparar estos coches</p>
+    <br>
+    <br>
+    <ol>
+        <li>Skoda-sasvelgab-superb</li>
+        <li>Skoda-sasvelgab-Kodiaq</li>
+        <li>Renault-sasvelgab-Zoe</li>
+        <li>Renault-sasvelgab-Espace</li>
+    </ol>
+    <br>
+    <br>
+    <video id="video1" width="600" height="600" autoplay="autoplay" controls loop="loop">
+            <source src="imgvideo/SkodaSuperb.avi" type="video/mp4">
+    </video>
+    <br>
+    <br>
+    <table>
+            <thead>
+                    <tr>
+                        <th>modelo de coches</th>
+                        <th>Skoda</th>
+                        <th>Renault</th>
+                    </tr>
+            </thead>
+            <tbody>
+                     <tr>
+                        <td rowspan="2"></td>
+                        <td>super tdi 150 cv <img src="imgvideo/SkodaSuperb.jpg" title="superb" id="superbid"></td>
+                        <td>zoe entry 88 cv <img src="imgvideo/RenaultZOE.jpg" title="zoe" id="zoeid"></td>
+                    </tr>
+                    <tr>
+                        <td>kodiaq 2.0 tdi 159 cv <img src="imgvideo/SkodaKodiaq.jpg" title="kodiaq" id="kodiaqid"></td>
+                        <td>espace 1.6 dcti 30 life 6v <img src="imgvideo/RenaultEspace.jpg" title="espace" id="espaceid"></td>
+                    </tr>
+                    
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">este es el pie de la tabla:datos tomados de autofacil.es<br>
+                        nombre de fichero de examen:sas_vel_gab_171019_ej2.html </td>
+                    
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <br>
+        <form>
+            <legend style="text-align: center;">Encuesta</legend>
+            <br>
+            <p>rellena los datos con tu modelo de coche favorito:</p>
+            <br>
+            <label for="marca">Marca:</label>
+            <br>
+            <input type="text" id="marcaid" name="marca" placeholder="introduce marca" required>
+            <br>
+            <label for="modelo">Modelo:</label>
+            <br>
+            <input type="text" id="modeloid" name="modelo" placeholder="introduce modelo" required>
+            <br>
+            <label for="num">CV:</label>
+            <br>
+            <input type="number" id="numid" name="num" placeholder="introduce potencia" required>
+            <br>
+            <label for="col">Color favorito para el coche:</label>
+            <br>
+            <input type="color" id="colid" name="col" required>
+            <br>
+            <label for="iden">Identificador de usuario:</label>
+            <br>
+            <input type="text" id="marcaid" name="marca" placeholder="identificador" pattern="[A-Z]{2}[0-9]{4}[a-z]{1}[0-9]{1}{8}" required>
+            <br>
+            <br>
+            <input type="submit" value="Enviar mis opiniones">
+            <br>
+            <p>Gracias.Fichero de examen sas_vel_gab_171019_ej2.html</p>
+        </form>
+</body>
+</html>
